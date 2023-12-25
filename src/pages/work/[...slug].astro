@@ -39,6 +39,7 @@ const { Content } = await entry.render();
 								{entry.data.tags.map((t) => <Pill>{t}</Pill>)}
 							</div>
 							<p class="description">{entry.data.description}</p>
+							<div><a href={entry.data.link} target="_blank">Demo</a></div>
 						</div>
 					</Hero>
 				</div>
