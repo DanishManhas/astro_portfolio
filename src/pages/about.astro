@@ -57,13 +57,32 @@ import Hero from "../components/Hero.astro";
 			<section>
 				<h2 class="section-title">Education</h2>
 				<div class="content">
-					<p>Corporis voluptates tenetur laudantium.</p>
+					<p>BTech in Computer Science Engineering  from <a href="http://coet.bgsbu.ac.in"></a></p>
 				</div>
 			</section>
 			<section>
 				<h2 class="section-title">Skills</h2>
-				<div class="content">
-					<p>officia unde omnis</p>
+				<div class="content skills">
+					
+						<ul>
+							<li>React, Redux, Flux, Javascript, Typescript,
+							</li>
+							<li>Next js, Astro, Vue,
+							</li>
+							<li>HTML, CSS, Sass, Tailwind, Shadcn etc,
+							</li>
+							<li>Figma, Adobe XD,
+							</li>
+							<li>Node, Express, Hapi,
+							</li>
+							<li>Rest Api,
+							</li>
+							<li>Mongodb, PostgreSQL,
+							</li>
+							<li>Netlify, Vercel, Github, DNS, Git, Docker 
+							</li>
+						</ul>
+					
 				</div>
 			</section>
 		</main>
@@ -112,6 +131,10 @@ import Hero from "../components/Hero.astro";
 	.content :global(a:hover),
 	.content :global(a:focus) {
 		text-decoration-color: currentColor;
+	}
+	.skills >ul{
+		padding: 0;
+		list-style-type: none;
 	}
 
 	@media (min-width: 50em) {
