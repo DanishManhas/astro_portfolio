@@ -13,7 +13,7 @@ link:   https://danishmanhas.github.io/Conquer/
 ---
 
 
-# Case Study: Conquer Landing Page
+<!-- # Case Study: Conquer Landing Page -->
 
 ## Project Overview
 

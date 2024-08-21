@@ -58,6 +58,9 @@ const { Content } = await entry.render();
 </BaseLayout>
 
 <style>
+	p{
+		margon-left:50px;
+	}
 	header {
 		padding-bottom: 2.5rem;
 		border-bottom: 1px solid var(--gray-800);
@@ -87,8 +90,9 @@ const { Content } = await entry.render();
 	}
 
 	.content {
-		max-width: 65ch;
+		/* max-width: 65ch; */
 		margin-inline: auto;
+		/* background:red; */
 	}
 
 	.content > :global(* + *) {
